@@ -1,0 +1,99 @@
+
+:root{
+  --fs-xl: 3rem;
+  --fs-mid: 2rem;
+  --fs-sm: 1rem;
+}
+
+
+/*according to screen that can change */
+@media  (min-width:40em){
+  :root{
+    --fs-xl: 5rem;
+    --fs-mid: 3rem;
+    --fs-sm: 1.8rem;
+  }
+}
+
+
+#title{
+  background-color:#A68DAD;
+  width: 100%;
+  padding-top:  10rem;
+  padding-bottom: 10rem;
+
+}
+
+#features{
+  background-color:#EFEFEF;
+  height: 750px;
+  width: 100%;
+}
+
+#mid{
+  background-color:#F8EDE3;
+  height: 750px;
+  width: 100%;
+}
+#footer{
+
+  background-color:#F8EDE3;
+
+}
+
+.animate-charcter{
+  text-transform: uppercase;
+background-image: linear-gradient(
+ -225deg,
+ #445C3C 0%,
+ #889E81 29%,
+ #D6F8B8 67%,
+ #F9F8EB 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+color: #fff;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: textclip 5s linear infinite;
+display: inline-block;
+   font-size: 4rem;
+}
+.navbar-brand{
+
+  font-size: 2rem;
+  font-weight: bold;
+  color:#5F7161;
+}
+.nav-link{
+  color:#5F7161;
+}
+.mountain{
+  width: 100%;
+
+}
+
+h1{
+  font-size:var(--fs-xl);
+  font-family: sans-serif;
+  color:#EFEFEF;
+  margin-bottom: 0px;
+}
+h2{
+  font-size:var(--fs-mid);
+  font-family: sans-serif;
+  color:#EFEFEF;
+  margin-bottom: 0px;
+
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.color{
+  color:#85586F
+}
